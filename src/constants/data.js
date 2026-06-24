@@ -5,7 +5,7 @@ export const personalInfo = {
   monogram: "AH",
   title: "Software Engineer",
   tagline:
-    "SE student at FAST-NUCES building real-world software — from web platforms to low-level Assembly games.",
+    "SE student at FAST-NUCES building real-world software — from web platforms to Assembly games.",
   email: "amna.hafeez.se@gmail.com",
   phone: "+92 320 5979125",
   location: "Islamabad, Pakistan",
