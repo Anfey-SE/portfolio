@@ -151,7 +151,7 @@ export const projects = {
       stack: ["JavaScript", "Three.js", "MobileNetV2", "HTML5 Canvas", "Vercel"],
       repoUrl: "https://github.com/Anfey-SE/katas-raj-heritage-3d",
       liveUrl: "https://katas-raj-heritage-3d.vercel.app",
-      image: "/images/projects/katas-raj.png",
+      image: "/images/projects/katas-raj.webp",
       highlights: [
         "Lighthouse Performance 52 → 80",
         "Image classifier, AR overlay and 3D viewer in one site",
