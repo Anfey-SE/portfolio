@@ -19,7 +19,7 @@ export default function Projects() {
           <div className="mt-5 h-px w-16 bg-gradient-to-r from-accent-blue to-accent-purple" />
         </motion.div>
 
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {projects.items.map((project, index) => (
             <ProjectCard key={project.id} project={project} index={index} />
           ))}

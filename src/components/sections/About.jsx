@@ -40,9 +40,19 @@ export default function About() {
                   alt={personalInfo.name}
                   className="aspect-square w-full object-cover"
                   onError={(e) => {
-                    e.target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(personalInfo.name)}&size=400&background=111118&color=4f8ef7&bold=true&font-size=0.33`;
+                    e.target.style.display = "none";
+                    e.target.parentElement.querySelector("[data-monogram-fallback]").style.display = "flex";
                   }}
                 />
+                <div
+                  data-monogram-fallback
+                  style={{ display: "none" }}
+                  className="aspect-square w-full items-center justify-center bg-gradient-to-br from-accent-blue via-accent-purple to-accent-cyan"
+                >
+                  <span className="font-heading text-6xl font-bold text-white">
+                    {personalInfo.monogram}
+                  </span>
+                </div>
               </div>
             </div>
           </motion.div>

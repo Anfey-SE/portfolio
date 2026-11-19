@@ -85,7 +85,7 @@ export default function Hero() {
             <Button onClick={() => scrollToSection("projects")}>
               View My Work
             </Button>
-            <a href="/AmnaHafeez-CV.pdf" download="AmnaHafeez-CV.pdf">
+            <a href="/Amna_Hafeez_Resume.pdf" download="Amna_Hafeez_Resume.pdf">
   <Button variant="outline">
     Download CV
   </Button>
